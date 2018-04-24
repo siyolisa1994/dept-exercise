@@ -14,13 +14,13 @@ var  depts= [{name : 'toiletries', total : 5007},
 
     it('should check the department made correct calculation  ', function(){
 
-var  depts=[{name : 'toiletries', total : 5007},
+var  total=[{name : 'toiletries', total : 5007},
       {name : 'groceries', total: 11089},
       {name : 'phamacy', total : 7321},
       {name : 'butchery', total : 9053},
       {name : 'bakery', total : 10073}]
 
-  assert.deepEqual(grandTotal(depts),42543)
+  assert.deepEqual(grandTotal(total),42543)
 
     });
 });
