@@ -1,16 +1,15 @@
 describe('likedBy', function(){
 
     it('should count the total of likes of Lindani', function(){
-        assert.equal('', likedBy('likes'));
+        assert.equal('Liked by l, i and 3 others', likedBy('likes'));
     });
 
-    it('should return call bill if the amount is R2.75', function(){
-        assert.equal('R2.75', likedBy('call'));
+    it('should return likes which are more than 5', function(){
+        assert.equal(( 'Liked by 0,   and 5 others'), likedBy('0 likes'));
 
-    });
+      });
 
-    it(' should calculate the total of smses and calls', function(){
-       assert.equal(likedBy();
-
+      it('should return likes of liwa and lindani', function(){
+        assert.equal(likedBy(["Liwa", "Lindani"]), "Liked by Liwa and Lindani");
 });
 });
