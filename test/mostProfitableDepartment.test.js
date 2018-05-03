@@ -20,7 +20,7 @@ it(' determine which department is the most profitable', function(){
             assert.notDeepEqual(mostProfitableDepartment('total'),308151 );
 });
 it(' determine which department make lowest profit', function(){
-  assert.equal(mostProfitableDepartment('name'), '');
+  assert.notEqual(mostProfitableDepartment(dataset), 'Butchery');
 
 });
 
