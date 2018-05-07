@@ -1,4 +1,4 @@
-console.log("hello kunjani");
+
 var toiletriesDept ={ name: "toiletries", total: 5007};
 var groceriesDept ={ name: "groceries", total: 11089};
 

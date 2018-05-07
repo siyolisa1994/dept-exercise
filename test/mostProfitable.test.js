@@ -6,7 +6,7 @@ var most = [
             {"name":"Bakery","total":7801},
             {"name":"Fresh fruits","total":4519}]
 
-assert.deepEqual(mostProfitable(7801,(most)))
+assert.deepEqual(mostProfitable('Bakery',(most)))
 
 
 });
@@ -16,7 +16,7 @@ var most = [
             {"name":"Bakery","total":7801},
             {"name":"Fresh fruits","total":4519}]
 
-assert.deepEqual(mostProfitable(4519,(most)))
+assert.deepEqual(mostProfitable('Fresh fruits',(most)))
 
 
   });
