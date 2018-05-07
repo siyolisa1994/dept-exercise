@@ -6,27 +6,29 @@ var most = [
             {"name":"Bakery","total":7801},
             {"name":"Fresh fruits","total":4519}]
 
-assert.deepEqual(mostProfitable('Bakery',(most)))
+assert.deepEqual(mostProfitable(most), 'Bakery')
 
 
 });
-it('should calculate the lowest profit',function(){
-var most = [
-            {"name":"Butchery","total":6001},
+it('should determine the department which has a highest total',function(){
+var list = [
+            {"name":"Butchery","total":60012},
             {"name":"Bakery","total":7801},
-            {"name":"Fresh fruits","total":4519}]
+            {"name":"Fresh fruits","total":4151}]
 
-assert.deepEqual(mostProfitable('Fresh fruits',(most)))
+assert.deepEqual(mostProfitable(list), "Butchery")
+
+
 
 
   });
-  it('should calculate the total of the department',function(){
-  var most = [
-              {"name":"Butchery","total":6001},
-              {"name":"Bakery","total":7801},
-              {"name":"Fresh fruits","total":4519}]
+  it('should calculate the total of the most profit list',function(){
+ var list = [
+             {"name":"Butchery","total":6001},
+             {"name":"Bakery","total":7801},
+             {"name":"Fresh fruits","total":451911}]
 
-  assert.deepEqual(mostProfitable(18321,(most)))
+ assert.deepEqual(mostProfitable(list), "Fresh fruits")
 
 
     });
